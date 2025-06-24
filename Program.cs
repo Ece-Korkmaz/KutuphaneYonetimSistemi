@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Kitap kutuphane = new Kitap();  // Nesne oluşturuldu
+        Kitap kutuphane = new Kitap();  
 
         int secim;
 
@@ -21,13 +21,13 @@ class Program
             switch (secim)
             {
                 case 1:
-                    kutuphane.KitapEkle();   // ✔ doğru kullanım
+                    kutuphane.KitapEkle();  
                     break;
                 case 2:
-                    kutuphane.KitapListele(); // ✔ doğru kullanım
+                    kutuphane.KitapListele(); 
                     break;
                 case 3:
-                    kutuphane.KitapAra();     // ✔ doğru kullanım
+                    kutuphane.KitapAra();     
                     break;
                 case 0:
                     Console.WriteLine("Programdan çıkılıyor...");
